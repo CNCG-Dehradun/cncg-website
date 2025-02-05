@@ -1,13 +1,11 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import Link from "next/link";
+import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-16">
       <Image
-        src={`${
-        process.env.NEXT_PUBLIC_VERCEL_URL || ""}/placeholder.svg?height=1080&width=1920`}
+        src={`${process.env.NEXT_PUBLIC_VERCEL_URL || ""}/placeholder.svg?height=1080&width=1920`}
         alt="CNCG Dehradun Community"
         fill
         className="object-cover opacity-30"
@@ -19,18 +17,15 @@ export function Hero() {
           A cloud native technology catalyst in the heart of Dehradun
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="https://community.cncf.io/cloud-native-dehradun/" passHref>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Join Our Community
-            </Button>
-          </Link>
-          <Link href="https://community.cncf.io/cloud-native-dehradun/" passHref>
-            <Button size="lg" variant="outline">
-              Learn More
-            </Button>
-          </Link>
+          <Button size="lg" className="bg-primary hover:bg-primary/90">
+            Join Our Community
+          </Button>
+          <Button size="lg" variant="outline">
+            Learn More
+          </Button>
         </div>
       </div>
     </section>
-  );
+  )
 }
+

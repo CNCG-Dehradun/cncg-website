@@ -75,11 +75,9 @@ export default function Home() {
             Be part of the cloud native revolution in Dehradun. Connect, learn, and grow with like-minded professionals
             and enthusiasts.
           </p>
-          <a href="https://community.cncf.io/cloud-native-dehradun/" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Become a Member
-            </Button>
-          </a>
+          <Button size="lg" className="bg-primary hover:bg-primary/90">
+            Become a Member
+          </Button>
         </div>
       </section>
     </>

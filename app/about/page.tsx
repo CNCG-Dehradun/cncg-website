@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
 
 export default function AboutPage() {
   return (
@@ -70,17 +70,12 @@ export default function AboutPage() {
           <p className="text-gray-300 max-w-2xl mx-auto mb-8">
             Whether you're a student, professional, or enthusiast, there's a place for you in our community.
           </p>
-          <a
-            href="https://community.cncf.io/cloud-native-dehradun/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Become a Member
-            </Button>
-          </a>
+          <Button size="lg" className="bg-primary hover:bg-primary/90">
+            Become a Member
+          </Button>
         </div>
       </section>
     </div>
-  );
+  )
 }
+

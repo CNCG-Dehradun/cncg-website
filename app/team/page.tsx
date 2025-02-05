@@ -1,50 +1,45 @@
-import Image from "next/image";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import Image from "next/image"
+import { Github, Linkedin, Twitter } from "lucide-react"
 
 interface TeamMember {
-  name: string;
-  role: string;
-  image: string;
+  name: string
+  role: string
+  image: string
   social: {
-    github?: string;
-    twitter?: string;
-    linkedin?: string;
-  };
+    github?: string
+    twitter?: string
+    linkedin?: string
+  }
 }
 
 const teamMembers: TeamMember[] = [
   {
     name: "Ashutosh Kandpal",
     role: "Lead Organizer",
-    image: "/image/1726093538013.jpg",
+    image: "/placeholder.svg?height=400&width=400",
     social: {
       github: "https://github.com",
-      twitter: "https://x.com/KandpalAshutosh",
-      linkedin: "https://www.linkedin.com/in/ashutoshkandpal/",
+      twitter: "https://twitter.com",
+      linkedin: "https://linkedin.com",
     },
   },
   {
     name: "Mohit Bisht",
     role: "Lead Organizer",
-    image: "/image/Mohit.jpg",
+    image: "/placeholder.svg?height=400&width=400",
     social: {
-      github: "https://github.com/Mohiit70",
-      twitter: "https://x.com/MohitB_twt",
-      linkedin: "https://www.linkedin.com/in/mohit-bisht-22ab5b256/",
+      github: "https://github.com",
+      twitter: "https://twitter.com",
+      linkedin: "https://linkedin.com",
     },
   },
-];
+]
 
 function TeamMemberCard({ member }: { member: TeamMember }) {
   return (
     <div className="bg-card rounded-lg overflow-hidden">
       <div className="relative aspect-square">
-        <Image
-          src={member.image || "/placeholder.svg"}
-          alt={member.name}
-          fill
-          className="object-cover"
-        />
+        <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold mb-1">{member.name}</h3>
@@ -83,7 +78,7 @@ function TeamMemberCard({ member }: { member: TeamMember }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default function TeamPage() {
@@ -109,5 +104,6 @@ export default function TeamPage() {
         </div>
       </section>
     </div>
-  );
+  )
 }
+
