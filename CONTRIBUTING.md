@@ -16,6 +16,35 @@ Please note we have a code of conduct, please follow it in all your interactions
 4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
    do not have permission to do that, you may request the second reviewer to merge it for you.
 
+## Setting up the development environment
+
+1. Fork the repository. 
+2. Clone the repository.
+```bash
+   git clone https://github.com/your_username/cncg-website.git
+```
+3. Install node on linux(ubuntu)
+```bash
+   sudo apt update
+   sudo apt install nodejs
+   node -v (this command should print the node version)
+```
+4. Install node on windows 
+```bash
+   winget install Schniz.fnm
+   fnm install 22
+   node -v (this command should print the node version)
+```
+5. Install next.js
+```bash 
+   npx install next
+```
+6. Running the app 
+```bash
+   npm run dev
+```
+You can access the website at http://localhost:3000/ on your browser
+
 ## Code of Conduct
 
 ### Our Pledge
