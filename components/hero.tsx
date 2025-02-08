@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 export function Hero() {
   return (
@@ -18,10 +19,10 @@ export function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-primary hover:bg-primary/90">
-            Join Our Community
+            <Link href="https://community.cncf.io/cloud-native-dehradun/">Join Our Community</Link>
           </Button>
           <Button size="lg" variant="outline">
-            Learn More
+            <Link href="/about">Learn More</Link>
           </Button>
         </div>
       </div>
