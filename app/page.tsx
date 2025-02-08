@@ -1,6 +1,7 @@
 import { Hero } from "@/components/hero"
 import { EventCard } from "@/components/event-card"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <Button size="lg" variant="outline">
-              View All Events
+              <Link href="/events">View All Events</Link>
             </Button>
           </div>
         </div>
@@ -76,7 +77,7 @@ export default function Home() {
             and enthusiasts.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90">
-            Become a Member
+            <Link href="https://community.cncf.io/cloud-native-dehradun/">Become a Member</Link>
           </Button>
         </div>
       </section>

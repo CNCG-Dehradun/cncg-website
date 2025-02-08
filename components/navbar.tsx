@@ -33,7 +33,9 @@ export function Navbar() {
             <Link href="/contact" className="hover:text-primary transition-colors">
               Contact
             </Link>
-            <Button className="bg-primary hover:bg-primary/90">Join Us</Button>
+            <Button className="bg-primary hover:bg-primary/90">
+              <Link href="https://community.cncf.io/cloud-native-dehradun/">Join Us</Link>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}

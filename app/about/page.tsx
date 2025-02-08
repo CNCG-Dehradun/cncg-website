@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function AboutPage() {
   return (
@@ -71,7 +72,7 @@ export default function AboutPage() {
             Whether you're a student, professional, or enthusiast, there's a place for you in our community.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90">
-            Become a Member
+            <Link href="https://community.cncf.io/cloud-native-dehradun/">Become a Member</Link>
           </Button>
         </div>
       </section>
