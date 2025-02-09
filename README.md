@@ -1,22 +1,41 @@
 # CNCG-Dehradun Website
 
-This repository contains the CNCG-Dehradun website built using **Next.js**.
-
+This repository contains the official website for **CNCG Dehradun**, built using **Next.js**.
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - **Node.js** (latest LTS recommended)
 - **npm** (comes with Node.js) or **yarn**
 
 ### Installation
 
-1. **Clone the Repository**
+#### **1. Install Node.js**
+Before setting up the project, ensure you have Node.js installed. Follow the instructions below based on your operating system:
+
+- **Ubuntu**:
+  ```sh
+  sudo apt update
+  sudo apt install nodejs npm
+  ```
+  To install the latest LTS version of Node.js, use `nvm` (Node Version Manager):
+  ```sh
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+  nvm install --lts
+  nvm use --lts
+  ```
+
+- **Windows**:
+  - Download the latest LTS version of Node.js from the [official website](https://nodejs.org/).
+  - Run the installer and follow the setup instructions.
+
+#### **2. Clone the Repository**
    ```sh
    git clone https://github.com/your-username/cncg-website.git
    cd cncg-website
    ```
 
-2. **Install Dependencies**
+#### **3. Install Dependencies**
    ```sh
    npm install
    ```
@@ -25,7 +44,7 @@ This repository contains the CNCG-Dehradun website built using **Next.js**.
    yarn install
    ```
 
-3. **Run the Development Server**
+#### **4. Run the Development Server**
    ```sh
    npm run dev
    ```
