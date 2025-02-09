@@ -23,6 +23,7 @@ const teamMembers: TeamMember[] = [
       linkedin: "https://linkedin.com",
     },
   },
+  
   {
     name: "Mohit Bisht",
     role: "Lead Organizer",
