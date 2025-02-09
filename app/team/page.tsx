@@ -16,17 +16,18 @@ const teamMembers: TeamMember[] = [
   {
     name: "Ashutosh Kandpal",
     role: "Lead Organizer",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/img/arpit-agrawal.png",
     social: {
       github: "https://github.com",
       twitter: "https://twitter.com",
       linkedin: "https://linkedin.com",
     },
   },
+  
   {
     name: "Mohit Bisht",
     role: "Lead Organizer",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/img/Mohit.jpg",
     social: {
       github: "https://github.com",
       twitter: "https://twitter.com",
