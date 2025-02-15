@@ -16,11 +16,11 @@ const teamMembers: TeamMember[] = [
   {
     name: "Ashutosh Kandpal",
     role: "Lead Organizer",
-    image: "/img/arpit-agrawal.png",
+    image: "/img/1726093538013.jpg",
     social: {
       github: "https://github.com",
-      twitter: "https://twitter.com",
-      linkedin: "https://linkedin.com",
+      twitter: "https://x.com/KandpalAshutosh",
+      linkedin: "https://www.linkedin.com/in/ashutoshkandpal/",
     },
   },
   
@@ -29,9 +29,9 @@ const teamMembers: TeamMember[] = [
     role: "Lead Organizer",
     image: "/img/Mohit.jpg",
     social: {
-      github: "https://github.com",
-      twitter: "https://twitter.com",
-      linkedin: "https://linkedin.com",
+      github: "https://github.com/Mohiit70",
+      twitter: "https://x.com/MohitB_twt",
+      linkedin: "https://www.linkedin.com/in/mohit-bisht-22ab5b256/",
     },
   },
 ]
