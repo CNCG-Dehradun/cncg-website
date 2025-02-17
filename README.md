@@ -5,7 +5,6 @@ This repository contains the official website for **CNCG Dehradun**,
 ### What is CNCG Dehradun 
 CNCG Dehradun is a local chapter of the Cloud Native Computing Foundation (CNCF) based in Dehradun, Uttarakhand, India.  We focus on promoting and educating about cloud-native technologies like Kubernetes, microservices, serverless architecture, and observability.  We aim to connect the local tech community (students, professionals, enthusiasts) with the global cloud-native movement through networking, collaboration, and knowledge sharing.  Essentially, we are a group dedicated to fostering cloud-native expertise in the Dehradun area.
 
-
 ## 🚀 Getting Started
 
 ### Prerequisites
