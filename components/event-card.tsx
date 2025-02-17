@@ -5,6 +5,7 @@ interface EventCardProps {
   title: string;
   date: string;
   image: string;
+  link: string;
 }
 
 export function EventCard({ title, date, image }: EventCardProps) {
