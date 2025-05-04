@@ -23,28 +23,10 @@ export default function EventsPage() {
           <h2 className="text-3xl font-bold mb-12">Upcoming Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <EventCard
-              title="Tomorrow's Event"
-              date="February 16, 2024"
-              image="/img/cncgfeb16.jpeg"
-              link="https://community.cncf.io/events/details/cncf-cloud-native-dehradun-presents-cncg-dehradun-tech-talks-2025-learn-innovate-connect/"
-            />
-            <EventCard
-              title="Cloud Native Meetup"
-              date="February 15, 2024"
-              image="/img/meetups.jpg"
-              link="https://example.com/register"
-            />
-            <EventCard
-              title="Kubernetes Workshop"
-              date="March 1, 2024"
-              image="/img/k8sworkshop.png"
-              link="https://example.com/register"
-            />
-            <EventCard
-              title="DevOps Fundamentals"
-              date="March 15, 2024"
-              image="/img/Devops-fundamentals.png"
-              link="https://example.com/register"
+              title="Cloud Native Certifications: Get Certified!"
+              date="May 11, 2025"
+              image="/img/certification-event.jpg"
+              link="https://example.com/certification-event"
             />
           </div>
         </div>
@@ -56,28 +38,22 @@ export default function EventsPage() {
           <h2 className="text-3xl font-bold mb-12">Past Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <EventCard
-              title="CNCG Launch Event"
+              title="CNCG Dehradun: The Beginning"
               date="January 25, 2024"
               image="/img/launch-event.png"
-              link="https://example.com/register"
+              link="https://community.cncf.io/events/details/cncf-cloud-native-dehradun-presents-cncf-dehradun-the-beginning/"
             />
             <EventCard
-              title="Introduction to Docker"
-              date="January 15, 2024"
-              image="/img/docker-intro.jpg"
-              link="https://example.com/register"
+              title="CNCG Dehradun Tech Talks 2025"
+              date="February 16, 2024"
+              image="/img/cncgfeb16.jpeg"
+              link="https://community.cncf.io/events/details/cncf-cloud-native-dehradun-presents-cncg-dehradun-tech-talks-2025-learn-innovate-connect/"
             />
             <EventCard
-              title="Cloud Native Security"
-              date="December 1, 2023"
-              image="/img/cloud-native-security.jpg"
-              link="https://example.com/register"
-            />
-            <EventCard
-              title="Microservices Architecture"
-              date="November 15, 2023"
-              image="/img/microservices-architecture.jpg"
-              link="https://example.com/register"
+              title="CNCF Beginnings: Stories & Steps into the Cloud Native Future"
+              date="April 16, 2025"
+              image="/img/cloud-native-beginnings.jpg"
+              link="https://community.cncf.io/events/details/cncf-cloud-native-dehradun-presents-cncf-beginnings/"
             />
           </div>
         </div>

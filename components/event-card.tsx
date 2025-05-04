@@ -13,13 +13,12 @@ export function EventCard({ title, date, image, link }: EventCardProps) {
     <a href={link} target="_blank" rel="noopener noreferrer" className="block">
       <Card className="bg-card hover:bg-card/80 transition-colors cursor-pointer overflow-hidden">
         <CardHeader className="p-0">
-          <div className="relative">
+          <div className="relative w-full h-[250px]">
             <Image
               src={image || "/img/placeholder.svg"}
               alt={title}
-              width={500}
-              height={250}
-              className="object-cover h-[250px]"
+              fill
+              className="object-cover w-full h-full"
             />
           </div>
         </CardHeader>

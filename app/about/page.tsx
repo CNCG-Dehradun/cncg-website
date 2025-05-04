@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-video">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/img/CNCG Dehradun Community.png"
               alt="CNCG Dehradun Community"
               fill
               className="rounded-lg object-cover"
